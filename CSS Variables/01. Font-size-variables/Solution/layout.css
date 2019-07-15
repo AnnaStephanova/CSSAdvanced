@@ -1,0 +1,23 @@
+html {
+    line-height: 1.5;
+}
+
+body {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: var(--font-size-h1, 30px);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    font-size: var(--font-size-h3, 20px);
+}
+
+p {
+    font-size: var(--font-size-p, 16px);
+}
