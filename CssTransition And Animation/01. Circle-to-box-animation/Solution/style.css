@@ -1,0 +1,70 @@
+.circle {
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 30px;
+    width: 30px;
+    transform: translateX(30%) translateY(30%);
+    background-color: rgb(184, 11, 11);
+    border-radius: 50%;
+    display: inline-block;
+    animation: pulse 3s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(5);
+        height: 50px;
+        width: 50px;
+        border-radius: 0%;
+        background-color: rgb(219, 111, 10);
+    }
+    20% {
+        transform: scale(4);
+        height: 45px;
+        width: 45px;
+        border-radius: 15%;
+    }
+    30% {
+        transform: scale(3);
+        height: 40px;
+        width: 40px;
+        border-radius: 25%;
+    }
+    40% {
+        transform: scale(2);
+        height: 35px;
+        width: 35px;
+        border-radius: 35%;
+    }
+    50% {
+        transform: scale(1);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    60% {
+        transform: scale(2);
+        height: 35px;
+        width: 35px;
+        border-radius: 35%;
+    }
+    70% {
+        transform: scale(3);
+        height: 40px;
+        width: 40px;
+        border-radius: 25%;
+    }
+    80% {
+        transform: scale(4);
+        height: 45px;
+        width: 45px;
+        border-radius: 15%;
+    }
+    100% {
+        transform: scale(5);
+        height: 50px;
+        width: 50px;
+        border-radius: 0%;
+        background-color: rgb(219, 111, 10);
+    }
+}
